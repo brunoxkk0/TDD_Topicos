@@ -20,9 +20,9 @@ function calcular(funcionario){
         case "DBA":{
 
             if(funcionario.salarioBase >= 2000){
-                return funcionario.salarioBase * (1 - 0.25)
+                return calc(funcionario.salarioBase, 0.25)
             }else{
-                return funcionario.salarioBase * (1 - 0.15)
+                return calc(funcionario.salarioBase,0.15)
             }
 
         }
