@@ -80,4 +80,30 @@ describe("Calculadora de Salarios", () => {
 
     })
 
+    test("Calcula GERENTE - 5000", () => {
+
+        let funcionario = {
+            nome: "fulano",
+            email: "fulano@email.com",
+            salarioBase: 5000,
+            cargo: "GERENTE"
+        }
+
+        expect(calcular(funcionario)).toBe(3500)
+
+    })
+
+    test("Calcula GERENTE - 4000", () => {
+
+        let funcionario = {
+            nome: "fulano",
+            email: "fulano@email.com",
+            salarioBase: 4000,
+            cargo: "GERENTE"
+        }
+
+        expect(calcular(funcionario)).toBe(3200)
+
+    })
+
 })
