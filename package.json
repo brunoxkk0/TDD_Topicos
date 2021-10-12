@@ -1,0 +1,22 @@
+{
+  "name": "tdd_topicos",
+  "version": "1.0.0",
+  "description": "tdd test",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunoxkk0/TDD_Topicos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunoxkk0/TDD_Topicos/issues"
+  },
+  "homepage": "https://github.com/brunoxkk0/TDD_Topicos#readme",
+  "dependencies": {
+    "jest": "^27.2.5"
+  }
+}
