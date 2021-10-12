@@ -28,6 +28,16 @@ function calcular(funcionario){
 
         }
 
+        case "GERENTE":{
+
+            if(funcionario.salarioBase >= 5000){
+                return funcionario.salarioBase * (1 - 0.30)
+            }else {
+                return funcionario.salarioBase * (1 - 0.20)
+            }
+
+        }
+
     }
 
 }
